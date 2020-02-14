@@ -1,32 +1,7 @@
 N <- 10
-B <- round(rnorm(1, 3, 1), 0)
+
+for(i in 1:100) {
+ B <- round(rnorm(1, 3, 1), 0)
 D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
-B <- round(rnorm(1, 3, 1), 0)
-D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
-B <- round(rnorm(1, 3, 1), 0)
-D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
-B <- round(rnorm(1, 3, 1), 0)
-D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
-B <- round(rnorm(1, 3, 1), 0)
-D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
-B <- round(rnorm(1, 3, 1), 0)
-D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
-B <- round(rnorm(1, 3, 1), 0)
-D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
-B <- round(rnorm(1, 3, 1), 0)
-D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
-B <- round(rnorm(1, 3, 1), 0)
-D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
-B <- round(rnorm(1, 3, 1), 0)
-D <- round(rnorm(1, 3, 1), 0)
-N <- N + B - D
+N <- N + B - D}
 print(N)
